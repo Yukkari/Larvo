@@ -2,9 +2,36 @@
     margin: 0;
 }
 
+/*Region: ScrollBar*/
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #272727;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0c0c0c; 
+  }
+/*endRegion: ScrollBar*/
+
+.modern_input {
+    
+}
+
 .bgimg {
     background-image: url("../resources/img/bg001.png");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bg-darkglass {
+    background: rgba(0, 0, 0, 0.53) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+}
+
